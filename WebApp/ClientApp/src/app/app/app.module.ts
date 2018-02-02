@@ -5,10 +5,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { BookComponent } from './book/book.component';
-import { BookDetailsComponent } from './book-details/book-details.component';
-import { AddBookComponent } from './add-book/add-book.component';
-import { EditBookComponent } from './edit-book/edit-book.component';
+import { BookComponent } from './../book/book.component';
+import { BookDetailsComponent } from './../book-details/book-details.component';
+import { AddBookComponent } from './../add-book/add-book.component';
+import { EditBookComponent } from './../edit-book/edit-book.component';
 
 const appRoutes: Routes = [
   {
